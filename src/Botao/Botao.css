@@ -1,0 +1,17 @@
+.botao{
+    padding: 1rem;
+    border-radius:  1rem;
+    background-color: #FFB4B4;
+    color: #af2020;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.botaoCancel{
+    background-color: #ef5555;
+    color: #ffb4b4;
+}
+.botao:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}

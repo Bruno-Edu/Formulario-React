@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegacao{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: #af2020 ;
+    border-radius: 1rem;
+    width: fit-content;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    padding: 2rem;
+    line-height: 1rem;
+    
+}
+li:hover{
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.1);
+    border-radius: 1rem;
+    color: #af2020;
+}

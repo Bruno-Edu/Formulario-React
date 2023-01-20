@@ -1,0 +1,19 @@
+.campo-texto input{
+    width: 50%;
+    line-height: 2rem;
+    margin-bottom: 0.5rem ;
+    
+}
+.campo-texto-select select{
+    width: 50%;
+    height: 2rem;
+    margin-bottom: 0.5rem ;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+
+}
