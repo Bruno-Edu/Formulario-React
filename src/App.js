@@ -1,5 +1,4 @@
 import './App.css';
-import FormularioAluno from './Formulario/Formulario';
 import Nav from './Navegação/Navegacao';
 
 
@@ -8,8 +7,6 @@ function App() {
       
       <div className="App">
         <Nav/>
-        <FormularioAluno/>
-        
       </div>
     
   )

@@ -11,18 +11,23 @@
     background-color: #af2020 ;
     border-radius: 1rem;
     width: fit-content;
-    
-    
+    margin-bottom: 2rem;
 }
 
 ul{
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
-    
 }
+a{
+    color: white;
+    text-decoration: none;
+}
+
 li{
     padding: 2rem;
     line-height: 1rem;
-    
+    color: white;
 }
 li:hover{
     cursor: pointer;
