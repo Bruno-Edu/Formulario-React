@@ -1,4 +1,4 @@
-import "./FormularioProf.css"
+import "./Formulario.css"
 import CampoTexto from "../CampoTexto/CampoTexto"
 import CampoTexto_Select from "../CampoTexto/CampoTexto_Select"
 

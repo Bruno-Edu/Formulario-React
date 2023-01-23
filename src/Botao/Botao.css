@@ -6,6 +6,7 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    border: none;
 }
 .botaoCancel{
     background-color: #ef5555;

@@ -1,10 +1,7 @@
 .Form{
     background: #af2020;
-    width: 50vw;
     margin: auto;
     border-radius: 1rem;
-    position: relative;
-    padding: 1.5rem;
     padding: 2rem;
     color: white;
 }
@@ -24,6 +21,6 @@
     width: 50%;
 }
 .dividido>div input,
-.divido>div select{
+.dividido>div select{
     width: 100%;
 }

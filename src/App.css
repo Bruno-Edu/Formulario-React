@@ -9,8 +9,8 @@
 
 body{
   background-image:  url('../public/imagens/banner.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
   height: 100vh;
   display: flex;
   justify-content: center;
