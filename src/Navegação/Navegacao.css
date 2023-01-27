@@ -5,13 +5,13 @@
 }
 
 .navegacao{
-    margin: 0 auto;
+    position: relative;
     color: white;
     font-weight: bold;
     background-color: #af2020 ;
     border-radius: 1rem;
     width: fit-content;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 ul{

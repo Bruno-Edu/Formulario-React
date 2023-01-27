@@ -1,11 +1,11 @@
 .campo-texto input{
-    width: 50%;
+    width: 100%;
     line-height: 2rem;
     margin-bottom: 0.5rem ;
     
 }
 .campo-texto-select select{
-    width: 50%;
+    width: 100%;
     height: 2.3rem;
     margin-bottom: 0.5rem ;
 }

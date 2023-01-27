@@ -2,12 +2,14 @@
     background: #af2020;
     margin: auto;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2rem 8rem 2rem 8rem;
     color: white;
+    width: 40%;
+    margin-top: 5rem;    
 }
 .Form h1{
     border-bottom: 2px solid white;
-    width: 50%;
+    width: 100%;
     margin: auto;
     padding-bottom: 10px;
     margin-bottom: 2rem;
@@ -15,10 +17,10 @@
 .dividido{
     display: flex;
     margin: auto;
-    width: 50%;
+    width: 100%;
 }
 .dividido>div{
-    width: 50%;
+    width: 100%;
 }
 .dividido>div input,
 .dividido>div select{
