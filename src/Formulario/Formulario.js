@@ -4,7 +4,12 @@ import CampoTexto_Select from "../CampoTexto/CampoTexto_Select"
 
 import {BotaoEnviar,BotaoCancelar} from "../Botao/Botao"
 
-const FormularioAluno = () =>{
+const FormularioAluno = () => {
+
+    const aoSalvar = (evento) => {
+        evento.preventDefault()
+        console.log('Form foi submetido')
+    }
 
     const sexo = [
         'Selecione o Sexo',
@@ -28,25 +33,25 @@ const FormularioAluno = () =>{
     return(
         <section className="Form">
             <h1>Cadastro de Alunos</h1>
-            <form action="">
-                <CampoTexto input type="text" placeholder="Nome Completo"/>
+            <form action="" onSubmit={aoSalvar}>
+                <CampoTexto obrigatorio="true" input type="text" placeholder="Nome Completo"/>
                 <div className="dividido">
-                    <CampoTexto input type="date"/>
-                    <CampoTexto_Select  itens={sexo}/>
+                    <CampoTexto obrigatorio="true" input type="date"/>
+                    <CampoTexto_Select obrigatorio="true"  itens={sexo}/>
                 </div >
-                <CampoTexto input type="text" placeholder="Nome do Pai"/>
-                <CampoTexto input type="text" placeholder="Nome da Mãe"/>
+                <CampoTexto obrigatorio="true" input type="text" placeholder="Nome do Pai"/>
+                <CampoTexto obrigatorio="true" input type="text" placeholder="Nome da Mãe"/>
                 <div className="dividido">
-                    <CampoTexto input type="text" placeholder="Cidade"/>
-                    <CampoTexto input type="text" placeholder="Estado"/>
+                    <CampoTexto obrigatorio="true" input type="text" placeholder="Cidade"/>
+                    <CampoTexto obrigatorio="true" input type="text" placeholder="Estado"/>
                 </div>
                 <div className="dividido">
-                    <CampoTexto input type="text" placeholder="Telefone"/>
-                    <CampoTexto input type="text" placeholder="E-mail"/>
+                    <CampoTexto obrigatorio="true" input type="text" placeholder="Telefone"/>
+                    <CampoTexto obrigatorio="true" input type="text" placeholder="E-mail"/>
                 </div>
                 <div className="dividido">
-                    <CampoTexto_Select  itens={curso}/>
-                    <CampoTexto_Select  itens={horario}/>
+                    <CampoTexto_Select obrigatorio="true"  itens={curso}/>
+                    <CampoTexto_Select obrigatorio="true"  itens={horario}/>
                 </div>
                 
                     

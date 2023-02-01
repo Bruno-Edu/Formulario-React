@@ -27,10 +27,11 @@ const FormularioCurso = () =>{
             <form action="">
                 <CampoTexto input type="text" placeholder="Nome do Curso"/>
                 <div className="dividido">
-                    <CampoTexto input type="number" placeholder="Descrição do Curso"/>
+                    <CampoTexto input type="number" placeholder="Carga Horária"/>
                     <CampoTexto_Select  itens={dias}/>
                 </div >
-                <TextoArea/>
+                
+                <TextoArea value="Descrição do curso" row="5" cols="8"/>
     
                 <div className="button">
                 <BotaoEnviar>
