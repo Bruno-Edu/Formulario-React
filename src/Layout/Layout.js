@@ -7,9 +7,9 @@ import Header from '../Header/Header'
 function Layout() {
     return(
         <>
-       <Header/>
-        <Outlet/>
-       <Rodape/> 
+            <Header/>
+            <Outlet/>
+            <Rodape/> 
         </>
     )
 }

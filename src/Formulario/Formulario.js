@@ -32,7 +32,7 @@ const FormularioAluno = () => {
 
     return(
         <section className="Form">
-            <h1>Cadastro de Alunos</h1>
+            <h1>Cadastro de Aluno</h1>
             <form action="" onSubmit={aoSalvar}>
                 <CampoTexto obrigatorio="true" input type="text" placeholder="Nome Completo"/>
                 <div className="dividido">

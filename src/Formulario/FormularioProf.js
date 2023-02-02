@@ -76,6 +76,7 @@ const FormularioProf = () =>{
                 </div>
             </form>
       </section>
+      
     )
 }
 
